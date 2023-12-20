@@ -35,9 +35,9 @@ IntelliFire Wi-Fi fireplace modules provide app-based and Alexa control to vario
 
 By default when the integration is installed it will be configured to both read data and send control packets on the **Local** network.  If you wish to switch to **cloud** mode for any reason you are able to configure the integration both to **READ** and/or **CONTROL** an IntelliFire device via the cloud.
 
-## API Credentials
+## Configuration Flow
 
-To fully configure the IntelliFire integration you will need to enter your IntelliFire credentials which are the same ones you would use with the mobile app.
+To fully configure the IntelliFire integration you will need to enter your IntelliFire credentials which are the same ones you would use with the mobile app. This is a one time step and once completed it is possible to operate only locally moving forward.
 
 ### Entities
 
@@ -94,6 +94,7 @@ The integration uses a Number entity to control flame height. Valid flame height
 | `Target Temperature` | If the thermostat is engaged this is the target temperature the fireplace will try to reach, as measured by the remote.
 | `Fan Speed` | Numerical indicator of fan speed. |
 | `Timer End Time` | If the sleep timer is enabled, this is time it will finish. |
+
 
 ### Diagnostic Sensors
 
